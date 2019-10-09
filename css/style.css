@@ -1,0 +1,101 @@
+#wrapper{
+    overflow: hidden;
+    
+}
+#header{
+	position: absolute;
+	width: 100%;
+    z-index: 1;
+    position: absolute;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(247, 252, 255)
+}
+.container{
+    display: block;
+    border: 1px solid ;
+    margin: 40px;
+    padding: 50px;
+    background-color: rgb(227, 241, 248);
+    overflow: hidden;
+}
+
+.logo{
+    float: left;
+    font-size: 26px;
+}
+.logo a{
+	padding: 2px 0 0 53px;
+	display: block;
+    color: #000;
+    text-decoration: none;
+}
+.logo a:hover{
+	text-decoration: none;
+}
+
+/* .main-nav */
+
+
+.main-nav{
+    float: right;
+    font-size: 20px;
+    padding-top: 9px;
+    margin: 0;
+}
+.main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+  }
+  
+.main-nav li {
+    display: inline;
+  }
+
+.main-nav li a {
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+.main-nav li a:hover{
+    background-color: rgb(206, 229, 248);
+}
+.imgBackground{
+    object-fit: cover;
+    width: 100%;
+
+}
+
+/* FOOTER */
+.footer {
+	background-color: rgb(227, 241, 248);
+	color: black;
+    padding: 2px 0;
+
+}
+
+.container_wglasses {
+    padding-top: 50px;
+    font-size: 20px;
+    margin: 0;
+}
+.container_glasses{
+    margin-top: 200px;
+}
+.glasses{
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0,0,0);
+}
+.img_glasses img{
+    object-fit: cover;
+    width: 100%;
+}
